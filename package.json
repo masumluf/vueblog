@@ -1,0 +1,39 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masumluf/vueblog.git"
+  },
+  "keywords": [
+    "A",
+    "blog",
+    "post",
+    "using",
+    "vuejs",
+    "express",
+    "and",
+    "mongoBD"
+  ],
+  "author": "Masum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masumluf/vueblog/issues"
+  },
+  "homepage": "https://github.com/masumluf/vueblog#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
